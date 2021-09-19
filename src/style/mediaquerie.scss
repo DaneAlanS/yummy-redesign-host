@@ -125,10 +125,9 @@
         background: -moz-linear-gradient(bottom right, #F47F15, #EF9A4E);
         background: linear-gradient(to top left, #F47F15, #EF9A4E);
         border: $white 2px solid;
-        width: 60px;
-        height: 60px;
         border-radius: 50px;
     }
+
 
     .navbar-toggler,
     .navbar-toggler.collapsed {
@@ -391,13 +390,6 @@
             margin-bottom: 100px !important;
         }
     }
-
-    .navbar-toggler.collapsed,
-    .navbar-toggler {
-        width: 55px !important;
-        height: 55px !important;
-    }
-
     .video-wrapper {
         width: 100% !important;
     }
