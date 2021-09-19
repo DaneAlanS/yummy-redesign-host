@@ -1,0 +1,38 @@
+$white: #FAFAFA;
+$orange: #F47E14;
+$blue: #0B0F27;
+$darkblue:#070a19;
+
+
+
+@mixin glass {
+    background: rgba(255, 255, 255, 0.28) !important;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(4.5px) !important;
+    -webkit-backdrop-filter: blur(4.5px) !important;
+    border-radius: 20px !important;
+}
+
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../assets/fonts/GilroyMedium.woff") format("woff"),
+        url("../assets/fonts/GilroyMedium2.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../assets/fonts/GilroyBold.woff") format("woff"),
+        url("../assets/fonts/GilroyBold2.woff2") format("woff2"),
+}
+
+
+$theme-colors:("primary":$white,
+    "secondary":$white,
+);
+
+$link-color:$white !important;
+$link-hover-color:$orange !important;
+$font-color:$white !important;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";

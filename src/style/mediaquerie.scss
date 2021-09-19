@@ -1,0 +1,541 @@
+@media screen and (max-width: 1500px) {
+
+    .darkBG {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    .nav-container.container {
+        flex-direction: column;
+    }
+
+    .left-nav.navbar-nav {
+        justify-content: center;
+        padding: 0px;
+    }
+
+    #basic-navbar-nav {
+        order: 1;
+    }
+
+
+    .darkBG {
+        margin-top: 100px;
+    }
+
+    .sprout-image-wrapper {
+        padding: 100px 50px 100px 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 1360px) {
+
+    .darkBG {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .landing-wrapper {
+        flex-direction: column;
+    }
+
+    .landing-details {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .video-contract-wrapper {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .video-wrapper {
+        width: 80%;
+    }
+
+    .darkBG-text {
+        font-size: 22px;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1096px) {
+
+    .landing-phrase {
+        font-size: 40px;
+    }
+
+    .landing-details {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .navbar {
+        font-size: 20px;
+    }
+
+    .submenu {
+        flex-direction: column-reverse;
+        font-size: 20px;
+        transition: 2s ease-in-out;
+    }
+
+    .dropdown-menu {
+        font-size: 20px;
+    }
+
+    #basic-navbar-nav {
+        z-index: 10;
+        position: fixed;
+        top: 10vh;
+        left: 1vw;
+        background: rgba(0, 0, 0, 0.5) !important;
+        box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border-radius: 10px;
+        padding: 10px;
+        width: 90%;
+        height: 50%;
+    }
+
+    .nav-container.container>.navbar-toggler {
+        z-index: 10;
+        position: fixed;
+        top: 1vh;
+        left: 1vw;
+        background: #F47F15;
+        background: -webkit-linear-gradient(bottom right, #F47F15, #EF9A4E);
+        background: -moz-linear-gradient(bottom right, #F47F15, #EF9A4E);
+        background: linear-gradient(to top left, #F47F15, #EF9A4E);
+        border: $white 2px solid;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+    }
+
+    .navbar-toggler,
+    .navbar-toggler.collapsed {
+        transition: 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .justify-content-end {
+        display: none;
+    }
+
+    .yummylogo-column {
+        display: none;
+    }
+
+    .dropdown-menu {
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .numbers {
+        font-size: 20px !important;
+
+        p {
+            font-size: 15px !important;
+        }
+    }
+
+
+    .text-sprout-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .sprout-image-wrapper {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .wave-divider {
+        margin-top: -1px;
+    }
+
+    .partner-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+        img {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .right-nav {
+        display: none;
+    }
+
+    .landing-details {
+        padding-bottom: 30px;
+    }
+
+    .yummylogo {
+        margin-top: 150px;
+    }
+
+    .divider-message {
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    .numbers {
+        font-size: 0.8em;
+    }
+
+    .darkBG-text {
+        padding: 20px;
+        margin: 0px;
+        font-size: 15px;
+        width: 100% !important;
+    }
+
+    .text-sprout-wrapper {
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sprout-image-wrapper {
+        display: none;
+
+        .sprout {
+            display: none;
+        }
+    }
+
+    .glass-video-wrapper {
+        background: none;
+        box-shadow: none;
+        margin-bottom: 50px;
+    }
+
+    .truststep {
+        width: 50%;
+    }
+
+    .wallet-button {
+        width: 90%;
+    }
+
+    .tab-pane.active {
+        color: $white;
+        display: grid !important;
+        grid-template-columns: 1fr 3fr;
+        place-items: center;
+        gap: 20px;
+    }
+
+    .instructions.meta {
+        span {
+            font-size: 15px
+        }
+    }
+
+    .nav-item.nav-link {
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .instructions {
+        padding: 25px;
+
+        h3 {
+            font-size: 16px;
+            color: $white;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .carousel-caption {
+        font-size: 7px;
+        left: 5px;
+        bottom: -18px;
+    }
+
+}
+
+
+@media screen and (max-width: 745px) {
+    .video-contract-wrapper {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .video-wrapper {
+        width: 100vw;
+        background: none;
+        padding: 0px;
+        border-radius: 0px;
+
+        iframe {
+            border-radius: 0px;
+            width: 100vw !important;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .wave-divider {
+        margin-top: -2px;
+    }
+
+    .copyright-social-wrapper {
+        flex-direction: column;
+
+        .copyright {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .socials-footer {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contract {
+        width: 100vw;
+    }
+
+    .landing-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tab-content {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .wallet-button {
+        font-size: 15px;
+    }
+
+    .tab-pane.active {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .instructions.meta {
+        span {
+            font-size: 15px
+        }
+    }
+
+    .nav-item.nav-link {
+        margin-left: 5px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+
+    .instructions {
+        padding: 10px;
+
+        h3 {
+            font-size: 16px;
+            color: $white;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        span {
+            font-size: 14px;
+        }
+
+        #textwrap {
+            margin-bottom: 100px !important;
+        }
+    }
+
+    .navbar-toggler.collapsed,
+    .navbar-toggler {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .video-wrapper {
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .landing-phrase {
+        font-size: 35px;
+    }
+
+    .landing-details {
+        padding-top: 20px;
+        font-size: 15px;
+        width: 100vw;
+    }
+
+    .join-our-cause.btn {
+        font-size: 14px;
+    }
+
+    .video-contract-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .first-message {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .divider-message-wrapper {
+        padding: 0px;
+    }
+
+    .numbers-wrapper {
+        padding: 0px;
+    }
+
+    .numbers {
+        font-size: 18px !important;
+
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    .darkBG {
+        justify-content: center;
+    }
+
+
+    .text-sprout-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-caption {
+        font-size: 6px;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .contract {
+        font-size: 10px;
+    }
+
+    .landing-phrase {
+        font-size: 30px;
+        width: 100vw;
+    }
+
+    .instructions {
+        padding: 15px;
+
+        h3 {
+            font-size: 14px;
+            color: $white;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+
+    }
+
+    .glass-video-wrapper {
+        background: none;
+        box-shadow: none;
+        backdrop-filter: unset;
+        -webkit-backdrop-filter: unset;
+        border-radius: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+
+
+    .divider-message {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .navbar-brand {
+        width: 100%;
+
+        .transparentlogo {
+            width: 90%;
+        }
+    }
+
+    .numbers {
+        h3 {
+            font-size: 17px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+
+    html {
+        font-size: 10px !important;
+    }
+
+
+
+    .socials-footer {
+        font-size: 12px;
+    }
+}

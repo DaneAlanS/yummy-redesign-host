@@ -1,0 +1,23 @@
+.carousel {
+    width: 100% !important;
+    height: 80% !important;
+    margin: auto;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.carousel.slide,
+.carousel-inner {
+    width: 100% !important;
+    height: 80% !important;
+}
+
+.carousel-caption {
+    display: flex;
+    left: 8px;
+    bottom: -14px;
+    font-size: 10px;
+}

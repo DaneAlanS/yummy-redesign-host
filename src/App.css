@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  margin: 0px !important;
+}
+
+.app.container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0B0F27;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.app {
+  font-family: 'GilroyMedium', sans-serif;
+  background-image: linear-gradient(to bottom, #0b0f27, #47214e, #93295b, #d44349, #f47e14);
+  margin: 0px;
+  padding: 0px;
+}
+
+.app.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@import "./variables.scss";
+@import "./navigation.scss";
+@import "./footer.scss";
+@import "./home.scss";
+@import "./learn.scss";
+@import "./whitepaper.scss";
+@import "./mediaquerie.scss";
+
+.text-emphasis {
+  color: #550015;
+  font-weight: bold;
+}

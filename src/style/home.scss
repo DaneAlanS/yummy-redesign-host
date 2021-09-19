@@ -1,0 +1,251 @@
+.home-wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+.landing-wrapper {
+    color: $white;
+    padding: 0px 40px 80px 40px;
+}
+
+
+.landing-text-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-phrase {
+    font-family: 'GilroyBold', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+
+    span {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $orange;
+    }
+}
+
+.landing-paragraph-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.landing-details {
+    font-size: 19px;
+    text-align: center;
+}
+
+.join-our-cause.btn {
+    color: $white;
+    font-size: 20px;
+    background: #F47F15;
+    background-image: linear-gradient(to left top, #f47e14, #f6900a, #f7a303, #f6b406, #f4c614);
+    border-radius: 10px;
+    border-radius: 20px;
+    align-items: center;
+    border: none !important;
+    border-color: none !important;
+    -webkit-box-shadow: 11px 18px 30px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 11px 18px 30px 10px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    width: 50%;
+}
+
+.video-contract-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper {
+    @include glass;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    iframe {
+        border-radius: 20px;
+    }
+}
+
+.contract {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 6px;
+    margin-bottom: 20px;
+    background-color: $blue;
+}
+
+.V2 {
+    margin-top: 50px;
+}
+
+.first-message {
+    padding: 35px;
+}
+
+.yummylogo-wrapper {
+    justify-content: center;
+}
+
+.yummylogo {
+    width: 100%;
+    max-width: 550px !important;
+    height: auto;
+}
+
+.home-wrapper.container-fluid>.divider-content-wrapper {
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px -9px 40px 34px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -9px 40px 34px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0px !important;
+    margin-top: 50px !important;
+}
+
+
+.divider-message-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .divider-message {
+        font-size: 25px;
+        align-items: center;
+    }
+
+}
+
+.numbers-wrapper {
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .numbers {
+        font-size: 30px;
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    padding-bottom: 20px;
+}
+
+
+.wave-wrapper {
+    width: 100%;
+    margin: 0px !important;
+}
+
+.home-wrapper>.wave-wrapper>.wave-divider {
+    z-index: 4;
+    padding: 0px !important;
+
+
+}
+
+.darkBG {
+    color: $white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.text-sprout-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80% !important;
+    @include glass;
+    -webkit-box-shadow: 18px 29px 34px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 18px 29px 34px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.darkBG-text {
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+.sprout-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+
+    img {
+        height: fit-content;
+    }
+}
+
+.partner-grid-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 100px;
+
+    span {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+}
+
+.partner-grid {
+    width: 80%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    grid-template-rows: auto;
+    gap: 50px;
+    transition: 0.5s ease-in-out;
+
+    .logo-container {
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        @include glass;
+        -webkit-box-shadow: 18px 29px 34px 8px rgba(0, 0, 0, 0.4);
+        box-shadow: 18px 29px 34px 8px rgba(0, 0, 0, 0.4);
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            border: solid 1px $orange;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .logo-container.square {
+        img {
+            border-radius: 15px;
+        }
+
+    }
+}
