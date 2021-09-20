@@ -38,20 +38,20 @@ function App() {
                   <Nav className="me-auto left-nav">
 
                     <NavDropdown className ="drop-down" title="Documents" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="#action/3.1"><a href="https://github.com/Quillhash/Audit_Reports/blob/master/Yummy%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf" target="_blank" rel="noreferrer noopener"> Audit</a></NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.1"><a href="https://github.com/Quillhash/Audit_Reports/blob/master/YummyToken%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf" target="_blank" rel="noreferrer noopener"> Audit</a></NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2"><a href="/whitepaper"> Whitepaper</a> </NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown className ="drop-down" title="Buy Yummy" id="basic-nav-dropdown">
                       <Row className="submenu">
-                        <Col>
+                        {/* <Col>
                               <span>Exchange:</span>
                               <NavDropdown.Item href="#action/3.1"><a href="https://www.bitmart.com/trade/en?symbol=YUMMY_USDT" target="_blank" rel="noreferrer noopener"> <img alt="small Bitmart"className="exchange-icon bitmart"src={Bitmart}></img>Bitmart</a> </NavDropdown.Item>
-                        </Col> 
+                        </Col>  */}
                         <Col className="swap-menu">
                               <span>Swap:</span>
                               <NavDropdown.Item href="#action/3.1"><a href="https://pancakeswap.finance/swap" target="_blank" rel="noreferrer noopener"> <img alt="small Pancake swap"className="exchange-icon pcs"src={PCS}></img>PancakeSwap</a></NavDropdown.Item>
-                              <NavDropdown.Item href="#action/3.2"><a href="https://app.sokuswap.finance/bsc/#/swap?inputCurrency=0xB8c77482e45F1F44dE1745F52C74426C631bDD52?&outputCurrency=0x05f2df7b3d612a23fe12162a6c996447dce728a5" target="_blank" rel="noreferrer noopener"> <img alt="small Soku Swap"className="exchange-icon soku"src={Soku}></img>SokuSwap</a></NavDropdown.Item>         
+                              <NavDropdown.Item href="#action/3.2"><a href="https://app.sokuswap.finance/bsc/#/swap?inputCurrency=0xB8c77482e45F1F44dE1745F52C74426C631bDD52?&outputCurrency=0xB003C68917BaB76812797d1b8056822f48E2e4fe" target="_blank" rel="noreferrer noopener"> <img alt="small Soku Swap"className="exchange-icon soku"src={Soku}></img>SokuSwap</a></NavDropdown.Item>         
                         </Col>
                       </Row>
                     </NavDropdown>

@@ -1,7 +1,7 @@
 {
   "name": "Yummy Crypto",
   "version": "1.0.0",
-  "homepage": "http://yummy-crypto.com",
+  "homepage": "https://yummy-crypto.com",
   "private": false,
   "engines": {
     "node": "14.17.5",

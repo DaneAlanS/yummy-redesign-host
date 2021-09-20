@@ -94,7 +94,7 @@ return (
       <Row className="darkBG" >
         <Row className="text-sprout-wrapper">
           <Col className="darkBG-text">
-            <p>Our leadership team is as thoroughly passionate about the long term growth of Yummy. We work hard to have a positive impact in the World, while <strong className="text-emphasis">maximizing the returns to our Token Holders</strong> through exceptional tokenomics.</p>
+            <p>Our leadership team is thoroughly passionate about the long term growth of Yummy. We work hard to have a positive impact in the World while also <strong className="text-emphasis">maximizing the returns to our Token Holders</strong> through exceptional tokenomics.</p>
             <p>We are placing an emphasis on complete transparency, sustainable strategic growth decisions and innovative marketing campaigns that will ensure Yummy will reach its maximum potential.</p>
             <p>In addition to daily updates throughout our social channels, our leadership is very frequently available on the Yummy Coin Telegram for you to ask questions, give feedback or provide ideas. All are welcome to our Telegram/Discord channels, even non-Yummy holders.</p>
           </Col>

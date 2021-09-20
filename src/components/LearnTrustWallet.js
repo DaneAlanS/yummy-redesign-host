@@ -115,7 +115,7 @@ function LearnTrustWallet(){
                         Click out to the tokens window and then look for the icon in the very top right corner with two lines and two dots on it.
                         </p>
                         <p>
-                        Click that icon and then paste the Yummy Contract ID number in the search bar: 0x05F2dF7B3D612A23fe12162A6c996447dCE728a5
+                        Click that icon and then paste the Yummy Contract ID number in the search bar: 0xB003C68917BaB76812797d1b8056822f48E2e4fe
                         Select the button to the right as green and then return to the main window to see your total token amount.
                         </p>
                         <h2><strong>Welcome to Yummy Coin!</strong></h2>
