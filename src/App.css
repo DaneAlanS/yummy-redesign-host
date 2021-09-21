@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -84,13 +85,7 @@ a:link {
 }
 
 
-@import "./variables.scss";
-@import "./navigation.scss";
-@import "./footer.scss";
-@import "./home.scss";
-@import "./learn.scss";
-@import "./whitepaper.scss";
-@import "./mediaquerie.scss";
+@import "./main.scss";
 
 .text-emphasis {
   color: #550015;
